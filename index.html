@@ -1,0 +1,418 @@
+<html>
+<head>
+   
+<link rel="stylesheet" href="./index.css">
+<!-- CSS only -->
+<meta charset="utf-8" />
+<link rel="icon" href="	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2xbAR-X-NOfJKLkU2N0JUdoLDyCHwiZglQ&usqp=CAU" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#000000" />
+<meta
+  name="description"
+  content="Web site created using create-react-app"
+/>
+
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="C:\Users\Dell\Desktop\PP Project\upcoming events\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f09d6389cd.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<title>Project</title>
+
+
+
+</head>
+<body>
+    
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFRYYGRgaHBocGhocGh8eHRkdHBkZHBgcGBkcJC4lIR4tIRgYJjgnKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCQ6NDQ0NTQ0NDQ2NDQ0NDQ0NDQ3ND00NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQcFBgMECAL/xABOEAABAwIDAwcGBw4FAwUAAAABAAIRAyEEEjFBUWEFBgcicYGREzRzobGyJDJCYnLB0RUXIzNSVJKTs8LS4fDxFBYlQ4I1Y6JTg5TD4v/EABkBAQADAQEAAAAAAAAAAAAAAAACAwQBBf/EACgRAQACAQMEAQMFAQAAAAAAAAABAhEDMTIEEiFxURNBoSJCUmHwFP/aAAwDAQACEQMRAD8AtZERAREQEREBERAREQERa7zj54YbCS1zs9SLU2Xd/wAzo3v8FKtZtOIGwveAJJgC5J2dq1rlDn3gaTspq5yLEMaXx2kW9aq/nDzur4sEPdkZspskDUQXHV1p18Fr1suyZ74haqdN/IXfgOfmBqOy+VLDsztLB+lotnZUDgC0gg3BBkEcCF5qJGXw2X1OaT2Qs7yDzsxGEAFN4cy003SW7c0bWkmLhL9NH7RfKLWubnPTDYqGh2SrF6bzrvyO0d7eC2VZbVms4kERFEEREBERAREQEREBERAREQEREBERARFx167GNL3uDWi5c4gAdpKDkXR5X5Yo4Zmeu8Mbs2ucdzGi5K0jnD0ksBczCAOIsarvi7ZLG/K2XNuBVbYnGPrvL673PeflPdcC/wAXYLxYW4LRTp5nzPgbhzh6Q6tcOZQmiy4zT+EcItBFm32C/FaO0ggk63kk3mLetKYEGfbpa0d6MaMpnW+3haO9ba0rWMVARl2T65tHdEqIGXZM77x2IG9UnbI2/UmXqztnfsjd2qQEDKNJnfeOxHxlGk27dDmnvhC0ZQdsnb4WUvAyjfbbwOaRwMIIfo0iJ4G8zYrdeb/SFWw+VlX8NTFteu1sCIcfjbbO8VpT22BG4zfwU1WgRH9C1/ao2pW0YkeheRuW6GJZnoPD4+M3RzfpNNwsivN9HEOpPa+k9zHg2cx1wJ38RqNFY/N/pIEtZixH/dYJGts7B7R3hY79PMea+RZKLiw2JZUYHse17Do5pBB7CFyrMCIiAiIgIiICIiAiIgIiICErD8v85MPhG/hX9c/FY273dg2DibKqucfPXEYkuY0mlS63UYTmeBMBz9TO4W7VbTRtb0LA5w8+6GHLmU/w1UfJaeq02s9+k30Emyqzlvl6vi3nyzy5oJysbZjY0hu3TUyViW0xny3iYsopsmxB2W7wPUttNKtdtxNFk68P5nuUU2TNjYSEYySRcwDEcFDKczrYT/dWiWMkOMGwt4qWMBaT291reK+WMkE3t9q+mUwWk9vdA29qCAzqkwbEJk6swdY9SBgyz29mot23TIMs/wBtYjt2oDmDLPZffJMiOEDxRzOqDBvM/UoLOqHX1I4I6nDQb3n1bkE1GACR/ewM+MhTVYBEf30v61FRkCb/AG9UGR4wpqMAj+p0uOF0EVWRFjcA/apewBwFwDGvHVH0wCBv39sT2bVFVmXf2bdUGV5F5ar4V4NF5aDBcw3Y7g5pt32N1aXN3n7QrkMqxRqmLE9RxjRrzoeBVMVGQ6Lx2XRzOtlvExxVV9Kttx6XBRUlza56YnDPFNxNWkDGR5u0fMdqOy4Vqc3+ctDFt/BPh4+Mx1nt7to4iyxX0bV9DMoiKoEREBERAREQFiec/LLcLh31TciGsH5T3WaOzaeAKyyrLpdxDi7D0gYBzv7xDR9as0q91oiRXmOxL6tV76jy97iS5x4CbDYIsAuAsudbCeOk+KHUXN4M7b6JFzfSZO20z7F6QBnWyztiVFNsmO32Er6DCHG8RNx3fajGHMbxFpHEx9a6IpMnhp61NNk7eHt14WSmwkm8bPEn7F8s0N4gT2gaoIaLEzECfXtK72G5IrvbmZQrOGwim+DAnWFY/R1zNa1jMViG5nvAdTY4WY35L3NOrzqJ+KOKsdZ7a+JxCMy84u5GxIEnD1xfTyT/AKgvj7lV4nyFfXTyL92vxV6Sk7yknefFR/6J+DuechyJiS2Rh650/wBp+0nhw9a6uJwr2RnY9hsIexzLkEwMwEmy9LSd5XBjcJTqsLKrGvY4QWuEg+KR1E/eDuea3tgA7x9aPbEcRPrI+pbRz75qnBVGuYXOw7yckkksdqWOJ1tcHbcbFq79l5t4aj6loraLRmEonI5lwN4HrX06ncCdd/bC+anbNgfFS5hzATMxftUhD2wRcwYPHwUlnWidsSjxBF9YM7UIOaCbzEoAZcjdPbZc2CrvpVA9jy17DIc3W0fbcLhaDmibzE+pKYl0TB3rgv7mty23FUBUsHgllRo2PbrHA2I4FZlVX0P4k+Ur09hY1/e1xaT4OHgrUXm6te20xAIiKsEREBERAVVdL/43D7Oo/wB8K1VVfS/+Nw/0X++Ff0/OBXjpza3nVBObW8xPGYUkHNsmddlkE5tRM67L7V6A+WTmsYMxKmnM2Mce0x7SjJzWImfWlOZsQP5kR64QTTaZMGNnjs9S7PI2E8rXpUpgPexjhvaXDMI7JWU5u808ViutSYGMP+4+zD9CxL/+IjispydyC7B8r4ag57X3a/MGlshzalspLjYs3qu148xE+XJlc7WgCAIAsBuAsApRYznK8jCYkgkEUahBFiDkNwViiEGThIVK8yuZxx1J9R2IfTDHBgDRmJPk2PJLnHTri0bDdbJ96tn55V/QYpzSsTibfgWNCmFXH3q2fnlX9Biferb+eVv0GJ21+fwNi6QsG2pyfiA62RnlGnc5nWEeBHeqJeDAkz9Whj1q03dFTDY4uqe1jD9S46/RUCOri3TszUmkd+UtO7ardO9aRjP4SicKvqTaTNh4FKhM3M2F+6Vm+cvNnE4RzRVAcx1mVG3Y4/kmwLXcD3ErC1Zm5HbstZaImJ8wkktOaJvv7pSDm1vrPdMo7Nn162/uSDm1vv2RHshdAA5tb7+0KGTJMxEklSAc2txedmmvgjQ7NFpv2IN76JB8JrTr5P8AfarbVSdER+E1fR/vtVtrzuo5giIqQREQEREBVX0vD8Nh4/If74VqKrOl0ny2GjXI+P0gr+n5wK8M5tk90aeEQgnNxtujhw3KL5ha+gGyIjwhSJzaXtbs0XoCGTmkROuyAtq6PubYxWIcaomjSAL27HuJORh+b1STvAjaVqrCZsJmbetW90Rt+CVHbXV3SfosYB9ar1rTWvhydm9MaAAAAALACwA2ADcq25cn7v4WPyKc6bsRorLVacuA/d/C2+RTvutiFl0959ShCy1i+dHmeJ9DU9wrKLF86PM8T6Gp7hUI3Gq9D3mlX03/ANNFb8qJ5qc8a2BpvY2kx7HuD+sXNIdka0wWzIhgtHes799TERP+GpRp+Mf9iuvpWm0zDsxK2UVTHpVxET/hqUfTf9i7o5+8oRP3MdB06tb+BR+jf/YMSsxFWFbpA5Qa0ufycWtAkuc2sABtJOWwW58z+W3YzDNrvYGOLntLWkkdV0Agm91GaTWMy5hkeU+T2Yik+lVbmY8Qd4Ooc07HAwQdhC89cs4F9CvUovu5jiyYADhq10aXa5p716QVJdKdMDHugfGp0ieJPlASe5rR3BWaE/qw7Xdqbi7N87u/tonWzce6IjwiEc459Idu7vsSTm0vpHCPsWtMGbNx02Rp4RChhOadut4+tSCc2l93ZooYTJgC8yNiDfOiPzmr6P8AfarbVSdEZ+E1p18nf9Y1W2vO6jmCIipBERAREQFVfS6YrYYjXI/3grUVWdLrorYY7mP94K/p+cCu5IItpaOERHggcc0xfd2Wj1KCbixtAjbbjvUh3WmDrMbdZXoAx3WkCTMxdW/0RH4HU9O/3KZVQMdDpg6zEq3+iI/A6np3+5TVOvxRnZvSrXl4n7v4W09Sl3WxCstVZz8biafKTMRRo1H5GUyxzabnszNNYOa7IDsfpINws+nvMf1KMLTWL50eZ4n0NT3Cq+/zzyn+Zj/42IXW5S53cpVqT6TsKWh7SwluGr5gHCDEyJhdjTtkw0Jh6ulrX7knq6WnVd4cmYjLH+Gr7vxNTS3zOCfc3ERH+Gr/AKmppM6ZFrzCeYdfCnrUxFvKU7/82L0sSvNtOm5j2Mex7HZqVnNc0wKjY6rgDtN16SKz6+8OWY/l4/Bq/oqnuOWtdEv/AE5lo69T3hdbLy95tX9FU9xy1rolP+nM1+PU1+kFXHCfbn2boqV6VR8PPoaXtqq6lS3Sv59/7FL3qqlo8yu7T3POaYg7u6FGY5tOEd0Qpc/rzB7O6Ez9bThG3SPFbE0BxzTF93ZojDcwJmbKWv60wezbYR9ShjrmxvIjag33ojM4msT/AOn++1W0qk6JHTiax305/wDNqtted1HMERFSCIiAiIgKqul8/hcP9B/vBWqqq6Xz+Fw/0H++Ff0/OBXxf1s39XEKA/rB19nbYAfUpLxnzXj13CZxmJvpE7dIntXoCGPAdN9Z/kre6IvNKnp3fs6SqJrxnzaCZVu9EQ+CVPTu/Z0lTr8UZb4iLoY/lrDUHBtavSpuIkB9RrSRpIDjosiDvykrDf5rwH55hv1rPtT/ADXgfzzDfrqf2pifh1mZSVhv814H88w366n9qf5rwP55hv11P7UxPwNJ6WPOcH2H9vh1Z5VR9JHK1CviML5Cqypk+MWODgC6vQLQS20w11uCtwqdoxWo6HL3m1f0VT3HLW+ih88nsO99T3gtk5e82r+iqe45a10Sunk5n06g/wDIJHCfbv2boqS6T6wPKD4vkZSB4EZ3R4PHirQ5z85qOCZmeczyPwdMHrOO8/kt3uPrJAVEco4x1ao+q90ve4ucY2ncNwAAA3AKzQrOe52sOLylwd3jt+1QX9YG9o7bI94LpE+CnOMxdeL9olakkB4zE3gz23UtqdbNx2IHjMTfTXbpEo2oM+bQSg3roj85q+j/AH2q3FUnRD5zV9H++1W2vO6jmCIipBERAREQFVXS/wDjcP8AQf742K1VV3S/TOfDvjq5Xtk6TLTB7lfoc4FdF4zzsvs4bkDxmnZbZwE2QkZ9kerS1u1JGY6aWtaY1jdK9AQxwDp2Tu2dit7oiHwSp6d37OkqiaW59mWdo2dit7oi8zqenf8As6Sp1+KM7N7VVc88GK/LFKg5zmioyi1xbrlmuSBuNtVaqrPl0/6/hpj4lPt0r6LPp7z6lGGVb0Z4QCPKYm//AHf/AMr5+9jhdPK4qPSD+Fbyi532+TLRfvYYWI8rif1g/hT72GFiPK4n9YP4VvSJ32+TMtIpdGmFa5pNTEOyua4AvEHKQ4T1ZiQFuylFyZmdxjucPmuI9FU9xyofk7nHiaNFtKjXexkSWtAFzrDiJvbTcrd6Q+X2YfCvpyDVrMcxjNsOEOc7c0A67TAVIvywANnsgRPHVaNCv6ZzCUOTE1y9+dxc5xMuc4kuN5AJNzAsuOs+Tbxjja3BRUi0RoNN+1TVibRoOyY3LQkPcC6QfV9SnOM5Oy+zSeCipGa0R6vBTIznSJMbuFkAPGYnhrG2NYRrxnnZJ2T6kBGY6cLWmNY7ZRpGY6ReJFvDxQb10R+c1fR/vtVuKqOiKlNeu8fFDAP0nyPU0q115/Uc5BERUAiIgIiIC1znzyEcVhi1oBqMOdg3katniJHbC2NFKtprOYHmqoyHkERBIINogwQdoi6iBmOm2N3zZ4aK6OdfMWlinGqw+TrbSB1HnZnAvPzhftVUcschVsNUDK7C0EiHTLHWE5X6HbbVehTVrb2Mc3Ln2ZZ26Qre6IvM6np3/s6SqCm0ZoOk7/rVv9EXmdT07/2dJc1+KNm9qs+X/wDr+G0+LS7f9/RWYqz5eH+v4b6NLb6fZtWfT3n1KMLMXQ5bxho4etVaAXU2PeAdCWtJAMbF31iOd/mOK9DU9wqEbisx0nYyJyYbZbI/+NPvn4yJyYbsyP3/AE9y0lrRlnb27bQI8UyjLO3t2zpHZdbfp0+E8Q3V3SdjYnLhpt8h/f8AL7FwYrpGx72Q19FhO1lPrDszuIC1At6oO2TN/CyOb1Qe2b+FvFd+nT4MQ5cbiHPcXveXvcZc9xJceqPjE8ZgC0LjqxaI7t1onjqoe2zTwM3lKjdI3b5vJ/kpujwJGkQJj1r6flzDSNsaa/Yvl7RI3QJvPavp7W5hu23nbv7EEHLmGkbY0n7NEtm2R6pj2SoeBIjhInbulSWDORsvF/C6AIzHSNm6Y9kypYAXGI+bOk2j613uSORquJqFlBhfAudGNsPjv0AlWpzV5hUsM4Vap8pVF226jDvaDdzvnHuAVV9Wtd9x2+YPIJw2G64h9R2dwOrRoxh4ga8SVtCIvPtabTmQREUQREQEREBERAXFisKyowsqMa9h1a4Ag9oK5UQVlzh6NBOfCG22k8+48+x3is10V4Z9PDVWVGOY9uIdLXCCJp09i3NQW7RYq360zXts5MZcirPl1s8v4Y7m0vZiFZAfv8dn8lW/LzZ5fwx3NpesYjVWac5z6lGIWYsRzv8AMcV6Gp7hWXWH53eY4n0NT3SoV3hx5+awZZ+vsgQoydWY2woDOrN7R2aJk6ubbMacN69FY+nMGWey863MiOEDxUOYMoPZ3yDNuFlBp9UOvrCl9OAD2d8gm3ZCBUYAAR7dbAz4yFNVgER/cWv7VD2QJ/o9UGR4wpq0wP610uPFArMA04+2x70ewBwGgMevVQ6nBAE3jUb1t/N7o/rYgh75o0jtcOu6/wAhm47z61G1q1jMyNVp4Vz3tYxjnOdEMbcydghWDze6NC458W7K2bUmG5Hz37OweK3zkPm9h8K3LRYAY6zzd7u131Cyyqx36iZ8VHXwOCp0WBlJjWMGjWiB/M8SuwiLNnIIiICIiAiIgIiICIiAiIgIiICw2M5t0KmIp4nLlrU3Bwe35QAjK8aEQe0LMouxaY2BrvH+tFied3mOJ9DU90rLOE2KxnODB1KuGrUqWUvexzG5iQBmEfGEn2qdbeYyjNXnoN6s32dmiZerN9Y4aLt8o8mVsO4srMcxwIGU6OH5TXCzhbUSurlOWZ4x3x7V6UTlIczqzfZ2XJFuNkeyADfZ2XBNvBQR1QZ2m25dnA8nVa7msosc9xnqtHxdJJJsBfUwEzgdZ7IAN7g+1ZnkPmxiMU4eSZ1PlVH2Y25BE7TbQepb5za6N2Myvxjs7tRSaeo36R1ceFh2qwadNrWhrQGtAgAAAAbgBYBZtTqIjxUavzb5j4fDQ9w8rVHy3izT8xmg7dVtSIslrTacyCIiiCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiDq8pcm0q7Cysxr2HYRpxadQeIWjY/ovpknyNd7G7GPaHgH6Ugx4qw0U66lq7SK6wPRcwR5bEPe0XLGNDAf+RJK3nkvkulh2BlFjWN4ani5xuTxK7iJbUtbeQREUAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//2Q==" 
+            alt=""  width="50" height="44">
+            Programming pathshala 
+         
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex justify-content-evenly" id="navbarScroll">
+            <ul class=" nav justify-content-center" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Renaissance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">campus programs</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active "  href="#">Hire With Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active  " href="#">Events</a>
+              </li>
+            </ul>
+            <form class="d-flex" >
+              
+              <button class=" btn btn-primary btn btn-primary-outline-primary me-4 px-5 " type="button" >log in</button>
+              <button class="btn btn-primary btn btn-primary-primary" type="button">Start Free Trail</button>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid headpart">
+        <img id="bgimg" src=" D:\sudarsan\photos\240_F_467961418_UnS1ZAwAqbvVVMKExxqUNi0MUFTEJI83 1 (1).png" alt="#" class="imgbg"  >
+        <div class="row kittu">
+            <div class="col-6">
+                <div class="mx-auto px-auto">
+                    <img id="pic" src=" D:\sudarsan\photos\unsplash_4-EeTnaC1S4.png" alt="#"  >
+            
+                        </div>
+            </div>
+            <div class="col-6">
+                <div class="intext">
+                    <div class="font"> <p>Level Up Renaissance Test By<br> Programming Pathshala</p>
+                     <p id="fonttext">22 Jan, 2021 | 7PM IST | Online</p>
+                     </div>
+                     <button id="touch" type="button"> Get Up To 100% Scholarships on Renaissance Course</button><br>
+                     <button id="regbt" type="button"> Register Now</button>
+                   
+         
+                     </div>
+            </div>
+        </div>
+        <div class="row">
+            <img class="kittu" src=" D:\sudarsan\photos\Rectangle 1800 (2).png" alt="#" >
+           </div>
+
+           
+
+           
+      
+
+    </div>  
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-11">
+                    <h2 class="mb-5">Upcoming events</h2>
+                </div>
+               <div class="col-1 mx-auto">
+                
+
+                <button type="button" class="modalbutton" onClick="myfunction()" data-toggle="modal" data-target="#exampleModal">
+                   <a href=" D:\sudarsan\modal.html"> <i class="bi bi-plus text-white"></i></a>
+   
+                  </button>
+           <!--
+
+                       <script>
+                     function myfunction(){
+                            window.open("E:/sudarsan/modal.html");
+                     }
+                  </script>
+
+
+           -->
+                
+                 
+
+
+               </div>
+               </div>
+               <div class="row mb-3 kittu3">
+                <div class="col-6 kittu2">
+                  <img src=" D:\sudarsan\photos\unsplash_sEgodrJdMGw.png" alt="img not found" />
+                </div>
+                <div class="col-6 kittu2">
+                    <div class="text">
+                        <!-- <i class="fa-solid fa-plus-large"></i> -->
+                        <div class="level1">
+                            <h3 class="text-bold">Level Up Renaissance Test By   <button class="mx-5 shar"> <i class="fa-solid fa-square-share-nodes text-primary" id="share"></i></button><br>
+                                Programming Pathashala  </h3>
+                            
+        
+        
+                        </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
+                        <div class="time">
+                            <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;Jan 22, 2021 &nbsp;
+                            <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;7:20 PM IST
+                        </div>
+                        <br>
+                        <br>
+                        <div class="register">
+                            <button class="btn btn-primary">Register Now</button>&nbsp;&nbsp;
+                            <i class="fa-solid fa-people-group"></i> 90+ people partcipating
+        
+                        </div>
+        
+                    </div>
+                </div>
+               </div>
+
+
+               <div class="row mb-3 kittu3">
+                <div class="col-6 kittu2">
+                  <img src=" D:\sudarsan\photos\unsplash_IgUR1iX0mqM.png" alt="img not found" />
+                </div>
+                <div class="col-6 kittu2">
+                    <div class="text">
+                        <!-- <i class="fa-solid fa-plus-large"></i> -->
+                        <div class="level1">
+                            <h3 class="text-bold">Level Up Renaissance Test By      <button class="mx-5 shar"> <i class="fa-solid fa-square-share-nodes text-primary" id="share"></i></button><br>
+                                Programming Pathashala</h3>
+                            
+        
+        
+                        </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
+                        <div class="time">
+                            <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;Jan 22, 2021 &nbsp;
+                            <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;7:20 PM IST
+                        </div>
+                        <br>
+                        <br>
+                        <div class="register">
+                            <button class="btn btn-primary">Register Now</button>&nbsp;&nbsp;
+                            <i class="fa-solid fa-people-group"></i> 90+ people partcipating
+        
+                        </div>
+        
+                    </div>
+                </div>
+               </div>
+
+               <div class="row mb-3 kittu3">
+                <div class="col-6 kittu2">
+                  <img src=" D:\sudarsan\photos\unsplash_rxpThOwuVgE.png" alt="img not found" />
+                </div>
+                <div class="col-6 kittu2">
+                    <div class="text">
+                        <!-- <i class="fa-solid fa-plus-large"></i> -->
+                        <div class="level1">
+                            <h3 class="text-bold">Level Up Renaissance Test By     <button class="mx-5 shar"> <i class="fa-solid fa-square-share-nodes  text-primary" id="share"></i></button><br>
+                                Programming Pathashala</h3>
+                            
+        
+        
+                        </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
+                        <div class="time">
+                            <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;Jan 22, 2021 &nbsp;
+                            <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;7:20 PM IST
+                        </div>
+                        <br>
+                        <br>
+                        <div class="register">
+                            <button class="btn btn-primary">Register Now</button>&nbsp;&nbsp;
+                            <i class="fa-solid fa-people-group"></i> 90+ people partcipating
+        
+                        </div>
+        
+                    </div>
+                </div>
+               </div>
+
+               <div class="row mb-2 kittu3">
+                <div class="col-6 kittu2">
+                  <img src=" D:\sudarsan\photos\unsplash_FJ5e_2f96h4.png" alt="img not found" />
+                </div>
+                <div class="col-6 kittu2">
+                    <div class="text">
+                        <!-- <i class="fa-solid fa-plus-large"></i> -->
+                        <div class="level1">
+                            <h3 class="text-bold">Level Up Renaissance Test By       <button class="mx-5 shar"> <i class="fa-solid fa-square-share-nodes  text-primary" id="share"></i></button><br>
+                                Programming Pathashala</h3>
+                           
+        
+        
+                        </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable.</p>
+                        <div class="time">
+                            <i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;Jan 22, 2021 &nbsp;
+                            <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;7:20 PM IST
+                        </div>
+                        <br>
+                        <br>
+                        <div class="register">
+                            <button class="btn btn-primary">Register Now</button>&nbsp;&nbsp;
+                            <i class="fa-solid fa-people-group"></i> 90+ people partcipating
+        
+                        </div>
+        
+                    </div>
+                </div>
+               </div>
+
+           </div>
+
+
+           <div class="container footer mt-5 mb-5">
+            <div class="row">
+                <div class="col-5">
+
+                </div>
+                <div class="col-7">
+                    <button class="btn btn-outline-primary">View Previous Events</button>
+                    <h5 class="text-primary mt-5">Our Success Stories</h5>
+                </div>
+            </div>
+
+            
+                <h2 class="bomma mt-4">What Our Students Say About Us</h2>
+
+                <div class="row mt-5">
+                    <div class="col-1 pt-5">
+                        <img src=" D:\sudarsan\photos\chevron-right.png" />
+                       <!-- <text class="arrow"> &#60;</text> -->
+                       
+                    </div>
+                    <div class="col-2 pt-3">
+                        <img src=" D:\sudarsan\photos\download 2.png" />
+                    </div>
+                    <div class="col-8">
+                        <img src=" D:\sudarsan\photos\“.png" /><br/><br/>
+                        <h6 class="kingu mx-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </h6>
+
+                        <h4 class="ashi text-bold mx-5 mt-3">Ashley.h  <i class="bi bi-linkedin"></i></h4>
+
+                        <h6 class="mx-5">Software Engineer At Amazon</h6>
+                    </div>
+                    <div class="col-1 pt-5">
+                        <img src=" D:\sudarsan\photos\chevron-right (1).png" />
+                    </div>
+                </div>
+
+
+               
+                    
+              
+            
+                <div class="row mt-5">
+                    <div class="col-5">
+    
+                    </div>
+                    <div class="col-7">
+                        <span class="chukalu mx-3"><img src="E:\sudarsan\photos\Ellipse 184.png" alt="" class="src mx-2">
+                            <img src="E:\sudarsan\photos\Ellipse 185.png" alt="" class="src mx-2">
+                            <img src="E:\sudarsan\photos\Ellipse 184.png" alt="" class="src mx-2">
+                        </span><br>
+                        <button class="btn btn-primary mt-5">Read More Stories</button>
+                       
+                    </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-4">
+    
+                    </div>
+                    <div class="col-7">
+                       <h4 class="text-dark mx-4">Make Your Own Success Story</h4>
+                       <h6 class="text-primary mx-5 mt-3">Start Your 7 Days Free Trial Now!</h6>
+
+                       <input type="text" placeholder="Enter email Id" class="px-4 pt-1 pb-1 mt-2"><button class="btn btn-primary text-white emailbutton mb-1">Start Free Trial</button>
+                    </div>
+                </div>
+
+           </div>
+           
+           <hr style="height:4px; color:blueviolet">
+
+           <div class="container footer2 mb-5">
+                 <div class="row">
+                    <div class="col-6">
+                        <h3 class="mx-4 text-dark">Want To Know More
+                             About<br> Our Courses?</h3>
+
+                        <h6 class="mx-4 mt-4 text-secondary">Let's here all about it.<a href="">Contact Us</a></h6>
+                        <div class="row mt-5">
+                            <div class="col-5">
+                                   <h6 class="mx-4">Home</h6>
+                                   <h6 class="mx-4">Renaissance</h6>
+                                   <h6 class="mx-4">Course Curriculum</h6>
+                            </div>
+                            <div class="col-2">
+                                <h6 class="">Pricing</h6>
+                                <h6 class="">Stories</h6>
+                                <h6 class="">Blogs</h6>
+                            </div>
+                            <div class="col-5">
+                                <h6 class="">Teach with Us</h6>
+                                <h6 class="">Get Scholarship</h6>
+                                <h6 class="">Terms & Conditions</h6>
+                                <h6 class="">Careers</h6>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-6">
+                        <img src="E:\sudarsan\photos\Group 7469.png" alt="" class="src mx-5">
+                        <h6 class="mx-5 mt-4">We help our users to build skills, which are valued and enabling them to believe in themselves.</h6>
+                        <span class="mx-5"><i class="fab fa-linkedin-in bg-secondary text-light p-3 mt-3 mx-2"></i>
+                            <i class="fab fa-youtube bg-secondary text-light p-3 mt-3 mx-2"></i>
+                            <i class="fab fa-facebook-f bg-secondary text-light p-3 mt-3 mx-2"></i>
+                            <i class="fab fa-instagram bg-secondary text-light p-3 mt-3 mx-2"></i>
+                             
+                            <i class="fab fa-telegram bg-secondary text-light p-3 mt-3 mx-2"></i>
+                        </span>
+                          <!--
+                             <button class="btn btn-primary mt-5 mx-auto text-white expertbtn"><i class="bi bi-chat mx-2"></i> <text class="btntext">Chat With An Expert</text></button>
+
+                          --> 
+                        
+                    </div>
+                 </div>
+
+                 <div class="row">
+                    <div class="col-9">
+
+                    </div>
+                    <div class="col-3 mt-4">
+                        <button class="btn btn-primary mx-auto text-white expertbtn"><i class="bi bi-chat mx-2"></i> <text class="btntext">Chat With An Expert</text></button>
+                        
+                    </div>
+                    <hr style="color:blue">
+                 </div>
+
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-8">
+                        <text class="mx-auto text-secondary">All rights reserved with @Programming Pathshala</text>
+                    </div>
+                    
+                </div>
+
+           </div>
+        
+    
+
+</body>
+</html>
